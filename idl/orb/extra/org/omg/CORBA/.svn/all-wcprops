@@ -1,0 +1,449 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA
+END
+SystemException.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/SystemException.java
+END
+ObjectHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ObjectHolder.java
+END
+StringHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/StringHolder.java
+END
+Object.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Object.java
+END
+INTF_REPOS.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INTF_REPOS.java
+END
+PolicyError.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/PolicyError.java
+END
+UnknownUserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/UnknownUserException.java
+END
+LocalObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/LocalObject.java
+END
+NamedValue.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NamedValue.java
+END
+BAD_TYPECODE.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_TYPECODE.java
+END
+IntHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/IntHolder.java
+END
+NO_RESPONSE.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NO_RESPONSE.java
+END
+UNKNOWN.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/UNKNOWN.java
+END
+BAD_POLICY_VALUE.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_POLICY_VALUE.java
+END
+WrongTransaction.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/WrongTransaction.java
+END
+PERSIST_STORE.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/PERSIST_STORE.java
+END
+ValueBaseHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ValueBaseHolder.java
+END
+BAD_OPERATION.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_OPERATION.java
+END
+BAD_POLICY_TYPE.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_POLICY_TYPE.java
+END
+NO_RESOURCES.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NO_RESOURCES.java
+END
+DoubleHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/DoubleHolder.java
+END
+OBJ_ADAPTER.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/OBJ_ADAPTER.java
+END
+LocalInterface.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/LocalInterface.java
+END
+TypeCodeHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TypeCodeHelper.java
+END
+CompletionStatus.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/CompletionStatus.java
+END
+DATA_CONVERSION.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/DATA_CONVERSION.java
+END
+NVList.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NVList.java
+END
+ContextList.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ContextList.java
+END
+Principal.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Principal.java
+END
+TRANSACTION_REQUIRED.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TRANSACTION_REQUIRED.java
+END
+INV_FLAG.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INV_FLAG.java
+END
+NO_IMPLEMENT.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NO_IMPLEMENT.java
+END
+MARSHAL.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/MARSHAL.java
+END
+Any.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Any.java
+END
+Request.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Request.java
+END
+UserException.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/UserException.java
+END
+COMM_FAILURE.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/COMM_FAILURE.java
+END
+BAD_PARAM.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_PARAM.java
+END
+TRANSACTION_ROLLEDBACK.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TRANSACTION_ROLLEDBACK.java
+END
+CharHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/CharHolder.java
+END
+INTERNAL.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INTERNAL.java
+END
+BooleanHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BooleanHolder.java
+END
+FREE_MEM.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/FREE_MEM.java
+END
+ORB.java
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ORB.java
+END
+IMP_LIMIT.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/IMP_LIMIT.java
+END
+DynamicImplementation.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/DynamicImplementation.java
+END
+BAD_CONTEXT.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_CONTEXT.java
+END
+ExceptionList.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ExceptionList.java
+END
+INVALID_TRANSACTION.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INVALID_TRANSACTION.java
+END
+LongHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/LongHolder.java
+END
+ShortHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ShortHolder.java
+END
+ByteHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ByteHolder.java
+END
+INITIALIZE.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INITIALIZE.java
+END
+OBJECT_NOT_EXIST.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/OBJECT_NOT_EXIST.java
+END
+FloatHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/FloatHolder.java
+END
+Environment.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Environment.java
+END
+NO_MEMORY.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NO_MEMORY.java
+END
+BAD_POLICY.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_POLICY.java
+END
+ValueBaseHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ValueBaseHelper.java
+END
+TRANSIENT.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TRANSIENT.java
+END
+TypeCodeHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TypeCodeHolder.java
+END
+INV_POLICY.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INV_POLICY.java
+END
+TypeCode.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TypeCode.java
+END
+CODESET_INCOMPATIBLE.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/CODESET_INCOMPATIBLE.java
+END
+PrincipalHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/PrincipalHolder.java
+END
+ServerRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/ServerRequest.java
+END
+INV_IDENT.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INV_IDENT.java
+END
+INV_OBJREF.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/INV_OBJREF.java
+END
+NO_PERMISSION.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/NO_PERMISSION.java
+END
+Context.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Context.java
+END
+AnyHolder.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/AnyHolder.java
+END
+TIMEOUT.java
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/TIMEOUT.java
+END
+Bounds.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/Bounds.java
+END
+BAD_INV_ORDER.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/orb/extra/org/omg/CORBA/BAD_INV_ORDER.java
+END

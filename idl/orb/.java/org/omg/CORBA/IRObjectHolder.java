@@ -1,0 +1,33 @@
+//
+// IRObjectHolder.java (holder)
+//
+// File generated: Thu May 19 07:31:32 CEST 2011
+//   by TIDorb idl2java 1.3.12
+//
+
+package org.omg.CORBA;
+
+final public class IRObjectHolder
+   implements org.omg.CORBA.portable.Streamable {
+
+  public IRObject value; 
+  public IRObjectHolder() {
+  }
+
+  public IRObjectHolder(IRObject initial) {
+    value = initial;
+  }
+
+  public void _read(org.omg.CORBA.portable.InputStream is) {
+    value = org.omg.CORBA.IRObjectHelper.read(is);
+  };
+
+  public void _write(org.omg.CORBA.portable.OutputStream os) {
+    org.omg.CORBA.IRObjectHelper.write(os, value);
+  };
+
+  public org.omg.CORBA.TypeCode _type() {
+    return org.omg.CORBA.IRObjectHelper.type();
+  };
+
+}

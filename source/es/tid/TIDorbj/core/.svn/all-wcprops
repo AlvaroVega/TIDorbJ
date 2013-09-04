@@ -1,0 +1,155 @@
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core
+END
+CodecImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/CodecImpl.java
+END
+ServerRequestImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ServerRequestImpl.java
+END
+NVListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/NVListImpl.java
+END
+ContextListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ContextListImpl.java
+END
+NamedValueImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/NamedValueImpl.java
+END
+ShutdownThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ShutdownThread.java
+END
+SingletonORB.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/SingletonORB.java
+END
+ORBComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ORBComponent.java
+END
+ContextImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ContextImpl.java
+END
+AnyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/AnyImpl.java
+END
+BidirectionalPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/BidirectionalPolicyImpl.java
+END
+RequestImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/RequestImpl.java
+END
+ExceptionListImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ExceptionListImpl.java
+END
+ProcessingState.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ProcessingState.java
+END
+ForwardRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ForwardRequest.java
+END
+ObjectKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ObjectKey.java
+END
+TIDORB.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/TIDORB.java
+END
+StreamRequestImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/StreamRequestImpl.java
+END
+ORBServices.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ORBServices.java
+END
+PseudoObject.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/PseudoObject.java
+END
+EnvironmentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/EnvironmentImpl.java
+END
+CodecFactoryImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/CodecFactoryImpl.java
+END
+ObjectImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ObjectImpl.java
+END
+RequestCounter.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/RequestCounter.java
+END
+ConfORB.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ConfORB.java
+END

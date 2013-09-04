@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging
+END
+RequestEndTimePolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RequestEndTimePolicyImpl.java
+END
+AMIManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMIManager.java
+END
+QoS.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/QoS.java
+END
+RebindPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RebindPolicyImpl.java
+END
+AMIManagerConf.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMIManagerConf.java
+END
+AMILockList.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMILockList.java
+END
+_ExceptionHolderImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/_ExceptionHolderImpl.java
+END
+AMIManagerConfListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMIManagerConfListener.java
+END
+ThreadStateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/ThreadStateListener.java
+END
+AMILock.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMILock.java
+END
+QueueOrderPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/QueueOrderPolicyImpl.java
+END
+AMILockEnumeration.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMILockEnumeration.java
+END
+RequestStartTimePolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RequestStartTimePolicyImpl.java
+END
+AMIThreadPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMIThreadPool.java
+END
+PoliciesComponent.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/PoliciesComponent.java
+END
+RelativeRoundtripTimeoutPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RelativeRoundtripTimeoutPolicyImpl.java
+END
+RequestPriorityPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RequestPriorityPolicyImpl.java
+END
+RelativeRequestTimeoutPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/RelativeRequestTimeoutPolicyImpl.java
+END
+AMIThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/messaging/AMIThread.java
+END

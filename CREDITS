@@ -1,0 +1,299 @@
+MORFEO PROJECT CREDITS
+********************** 
+
+	This is a partial credits-file of people who contributes or has
+	contributed to the Morfeo project.  It follows a similar structure
+	to that of the Linux credits-file.  It is sorted by name, and
+	formatted in a way that allows for easy grepping and	beautification 
+	by scripts.  The fields are: name (N), email (E), web-address (W), 
+	PGP key ID and fingerprint (P), description (D) and name of 	
+	company/organization plus snail-mail address (S).  All the fields 
+	are mandatory even if they are empty.
+
+	Thanks,
+
+			Juanjo Hierro
+
+------------
+
+
+
+N: Juan A. Cáceres
+E: caceres@tid.es
+W: 
+P:
+D: Juan is software Architect and developer of TIDorb, the Web Services and EJB
+D: Container as well as some CORBA Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Manuel Castro
+E: mcp219@tid.es
+W: 
+P:
+D: Manuel was software developer of TIDIdlc and TIDorb for Java.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Francisco Checa
+E: franc@tid.es
+W:
+P:
+D: Fran is software developer of TIDorb.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: Parque Tecnológico de Boecillo parcelas 118-119-120
+S: 47151 Boecillo (Valladolid)
+S: Spain
+
+N: Luis de la Fuente
+E: fgs07@tid.es
+W: 
+P:
+D: Luis was software developer of TIDorb for Java and some CORBA services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Rafael Fernández Gallego
+E: rfdez@pegaso.ls.fi.upm.es
+W:
+P:
+D: Rafael has participated in the design and the development of the original 
+D: Morfeo Project Web site. He is the Morfeo Project webmaster.
+S:
+S: Facultad de Informática 
+S: Universidad Politécnica de Madrid (UPM)
+S: Campus de Montegancedo
+S: 28660 Boadilla del Monte (Madrid)
+S: Spain
+
+N: Javier Fernádez Mejuto
+E: mejuto@tid.es
+W: 
+P:
+D: Javier was the first software Architect and developer of TIDIdlc for Java, also he
+D: was software developer of TIDorb for Java.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Julio García-Otero
+E: joulsgo@gmail.com
+W:
+P:
+D: Julio has participated in design of the Web Services container and  
+D: performed some of the auxiliary tasks needed to launch the Morfeo 
+D: Project Community.
+D:
+S:
+
+N: Fabio García Solero
+E: fgs07@tid.es
+W: 
+P:
+D: Fabio was software developer of TIDIdlc and TIDorb for Java.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Jesús M. González-Barahona
+E: jgb@gsyc.escet.urjc.es
+W:
+P:
+D: Jesús has provided advice during all steps associated to creation of the 
+D: Morfeo Project Community.  He is the primary contact at the URJC.
+D:
+S: Rey Juan Carlos University (URJC)
+S: ESCET C/ Tulipán S/N
+S: 28933 Móstoles, Madrid. 
+S: Spain
+
+
+N: Juan J. (Juanjo) Hierro
+E: jhierro@tid.es
+W:
+P:
+D: Morfeo project leader and chief software architect of TIDorb, the Web
+D: Services and EJB container, TIDstateengine and CORBA Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Miguel Jimenez Gañan
+E: mjimenez@pegaso.ls.fi.upm.es
+W:
+P:
+D: Miguel has reviewed part ot the TIDorb documentation.
+S:
+S: Facultad de Informática 
+S: Universidad Politécnica de Madrid (UPM)
+S: Campus de Montegancedo
+S: 28660 Boadilla del Monte (Madrid)
+S: Spain
+
+N: Pablo Jiménez-Mayor
+E: pjm@tid.es
+W:
+P:
+D: Pablo is software Architect and developer of TIDStateEngine. 
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Luis López-Fernández
+E: llopez@escet.urjc.es
+W:
+P:
+D: Luis has performed some of the auxiliary tasks needed to launch the Morfeo 
+D: Project Community.  He has reviewed part ot the TIDorb documentation.
+D: 
+S: Rey Juan Carlos University (URJC)
+S: ESCET C/ Tulipán S/N
+S: 28933 Móstoles, Madrid. 
+S: Spain
+
+N: Mario López-Gallego
+E: mariolg@tid.es
+W:
+P: 
+D: Mario is software Architect and developer of TIDorb and some CORBA Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: Parque Tecnológico de Boecillo parcelas 118-119-120
+S: 47151 Boecillo (Valladolid)
+S: Spain
+
+N: Genoveva López Gómez
+E: glopez@fi.upm.es
+W:
+P:
+D: Genoveva has performed some of the auxiliary tasks needed to launch the Morfeo 
+D: Project Community.
+S:
+S: Facultad de Informática 
+S: Universidad Politécnica de Madrid (UPM)
+S: Campus de Montegancedo
+S: 28660 Boadilla del Monte (Madrid)
+S: Spain
+
+N: Andrés L. Martínez
+E: almartinez@escet.urjc.es
+W:
+P:
+D: Andrés has performed some of the auxiliary tasks needed to launch the Morfeo 
+D: Project Community.  He has reviewed part ot the TIDorb documentation.
+D: 
+S: Rey Juan Carlos University
+S: ESCET C/ Tulipán S/N
+S: 28933 Móstoles, Madrid. 
+S: Spain
+
+
+N: M. Cruz Pajares
+E: mcpg@tid.es
+W:
+P: 
+D: Cruz is software developer of TIDorb and some CORBA Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: Parque Tecnológico de Boecillo parcelas 118-119-120
+S: 47151 Boecillo (Valladolid)
+S: Spain
+
+N: Javier Rayado
+E: jrayado@pegaso.ls.fi.upm.es
+W:
+P:
+D: Javier has participated in the design and the development of the original 
+D: Morfeo Project Web site.
+S:
+S: Facultad de Informática 
+S: Universidad Politécnica de Madrid (UPM)
+S: Campus de Montegancedo
+S: 28660 Boadilla del Monte (Madrid)
+S: Spain
+
+N: Marcos Reyes
+E: mru@tid.es
+W:
+P:
+D: Marcos is software Architect and developer of TIDStateEngine. He also 
+D: leaded design of the original Morfeo Project Web site.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+
+N: Pablo Rodríguez-Archilla
+E: pra@tid.es
+W:
+P:
+D: Pablo is software developer of TIDorb and some CORBA Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+N: Álvaro Rodriguez-Sánchez
+E: ars07@tid.es
+W:
+P:
+D: Álvaro is software Architect and developer of TIDNotif, the CORBA Notification Services.
+D:
+S: Telefónica Investigación y Desarrollo (Telefónica I+D)
+S: C/ Emilio Vargas 6
+S: 28043 Madrid
+S: Spain
+
+
+N: Roberto Santos
+E: roberto.santos@hispalinux.es
+W:
+P:
+D: Roberto has provided advice during all steps associated to creation of the 
+D: Morfeo Project Community.
+S:
+
+N: Javier Soriano
+E: jsoriano@fi.upm.es
+W:
+P:
+D: Javier has performed some of the auxiliary tasks needed to launch the Morfeo 
+D: Project Community.  He has reviewed part ot the TIDorb documentation. He is
+D: the primary contact at the FI-UPM.
+S:
+S: Facultad de Informática 
+S: Universidad Politécnica de Madrid (UPM)
+S: Campus de Montegancedo
+S: 28660 Boadilla del Monte (Madrid)
+S: Spain
+
+N: David Velasco
+E: samurai_____@hotmail.com
+W:
+P:
+D: David was software developer of TIDIdlc for C++.
+S:
+
+
+

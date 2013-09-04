@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 79
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop
+END
+ZIOP.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop/ZIOP.java
+END
+CompressionEnablingPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop/CompressionEnablingPolicyImpl.java
+END
+CompressionLowValuePolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop/CompressionLowValuePolicyImpl.java
+END
+CompressorIdLevelListPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop/CompressorIdLevelListPolicyImpl.java
+END
+CompressionMinRatioPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/ziop/CompressionMinRatioPolicyImpl.java
+END

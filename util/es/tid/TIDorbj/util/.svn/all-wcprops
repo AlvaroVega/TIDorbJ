@@ -1,0 +1,89 @@
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util
+END
+Base16Codec.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/Base16Codec.java
+END
+SystemProperties.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/SystemProperties.java
+END
+Base64Codec.java
+K 25
+svn:wc:ra_dav:version-url
+V 89
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/Base64Codec.java
+END
+CannotProceedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/CannotProceedException.java
+END
+CircularTraceFile.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/CircularTraceFile.java
+END
+NotActivatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/NotActivatedException.java
+END
+TranslateURLEscapes.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/TranslateURLEscapes.java
+END
+AlreadyActivatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/AlreadyActivatedException.java
+END
+UTC.java
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/UTC.java
+END
+InvalidTraceLevelException.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/InvalidTraceLevelException.java
+END
+NoFileEspecifiedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/NoFileEspecifiedException.java
+END
+OutputStreamWrapper.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/OutputStreamWrapper.java
+END
+AlreadyDeactivatedException.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/AlreadyDeactivatedException.java
+END
+Trace.java
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/util/es/tid/TIDorbj/util/Trace.java
+END

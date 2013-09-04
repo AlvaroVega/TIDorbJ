@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 84
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop
+END
+GIOPFragmentedMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPFragmentedMessage.java
+END
+ReplyStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ReplyStatusType.java
+END
+ServiceContextList.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ServiceContextList.java
+END
+GIOPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPMessage.java
+END
+GIOPVersion.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPVersion.java
+END
+GIOPLocateRequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPLocateRequestMessage.java
+END
+RequestId.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/RequestId.java
+END
+ServiceContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ServiceContext.java
+END
+InvocationPoliciesContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/InvocationPoliciesContext.java
+END
+GIOPLocateReplyMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPLocateReplyMessage.java
+END
+GIOPHeader.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPHeader.java
+END
+AddressingDisposition.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/AddressingDisposition.java
+END
+MessageFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/MessageFactory.java
+END
+GIOPRequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPRequestMessage.java
+END
+ServiceId.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ServiceId.java
+END
+GIOPReplyMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPReplyMessage.java
+END
+BiDirServiceContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/BiDirServiceContext.java
+END
+GIOPCancelRequestMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPCancelRequestMessage.java
+END
+ZIOPMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ZIOPMessage.java
+END
+GIOPFragmentMessage.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/GIOPFragmentMessage.java
+END
+MsgType.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/MsgType.java
+END
+ServiceContextReader.java
+K 25
+svn:wc:ra_dav:version-url
+V 110
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/ServiceContextReader.java
+END
+LocateReplyStatusType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/giop/LocateReplyStatusType.java
+END

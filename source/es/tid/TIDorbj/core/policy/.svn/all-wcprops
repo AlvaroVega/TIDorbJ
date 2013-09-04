@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy
+END
+PolicyContextManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/PolicyContextManager.java
+END
+PolicyContext.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/PolicyContext.java
+END
+PolicyCurrentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/PolicyCurrentImpl.java
+END
+PolicyFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/PolicyFactory.java
+END
+UnsuportedPolicy.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/UnsuportedPolicy.java
+END
+PolicyManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/policy/PolicyManagerImpl.java
+END

@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/CosNaming
+END
+CosNaming.idl
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/CosNaming/CosNaming.idl
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/CosNaming/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/CosNaming/build.xml
+END

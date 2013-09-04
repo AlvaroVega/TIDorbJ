@@ -1,0 +1,198 @@
+2010-01-10 Alvaro Vega Garcia  <avega at tid dot es>
+	   Maria Cruz Pajares <mcpg at tid dot es>
+
+	* TIDorbJ version 6.5.0 released.
+	
+	- Feature added [#924] IPv6 support
+
+2010-01-10 Alvaro Vega Garcia  <avega at tid dot es>
+	
+	* TIDorbJ version 6.4.0 released.
+
+	- Feature added [#797] SSLIOP layer for TIDorbJ
+	- Feature added [#798] Secure corbalocs
+
+2009-11-10 Alvaro Vega Garcia  <avega at tid dot es>
+
+	* TIDorbJ version 6.3.5 released.
+	
+	- Feature added [#1072] CSI support for PrintIOR 
+	- Fix bug [#1070] Inexact UTC time
+
+2009-07-20 Alvaro Vega Garcia  <avega at tid dot es>
+
+	* TIDorbJ version 6.3.4 released.
+	
+	- Fix bug [#1038] Bug in Messaging.ExeptionHolder management
+	- Fix bug [#1026] Unable to retrieve the factory of a custom 
+	compressor previously registered
+	- Aligned with GIOP Compression (FTF Beta 2, May 2009): changes in the
+	way of calc 'min_ratio' value
+	- Fix bug [#956] Invalid call to 
+	org.omg.CORBA.Request.sendc(org.omg.CORBA.Object) using AMI
+	
+2009-04-16 Alvaro Vega Garcia  <avega at tid dot es>
+
+	* TIDorbJ version 6.3.3 released.
+
+	- Feature added [844] ZIOP: GIOP Compression (FTF Beta 2)
+	- Fix bug [942] Server listener sockets don't set SO_REUSEADDR socket 
+	option at initializing time
+	- Feature [916] Add support of QoS policies to printIOR
+	- Feature [842] Set TAG_ORB_TYPE requested to OMG
+	- Fix bug [830] recover_count at IIOPCommLayer is global, not per each
+	connection establishment (racecondition)
+	- Fix bug [544]	After COMM_FAILURE ORB client doesn't retry connection 
+	with a restarted server
+
+2008-06-23 Alvaro Vega Garcia  <avega at tid dot es>
+
+	* TIDorbJ version 6.3.2 released.
+	
+	- Fix bug [545] Interoperability problems with TAO and Visibroker due 
+	to response_flags of GIOP RequestHeader 1.2
+	- Fix bug [544] After COMM_FAILURE ORB client doesn't retry connection
+	with a restarted server
+	- Feature [419] Add dump of IIOPCommLayer properties in traces
+	- Fix bug [413] Java null pointer exception when creates an Any from
+	ORBSingleton.create_any()
+
+2008-02-22 Alvaro Vega Garcia  <avega at tid dot es>
+
+	* TIDorbJ version 6.3.1 released.
+	
+	- Fix bug [345] printIOR.sh doesn't work
+	- Fix bug [337] Problems with ServantActivator	
+	- Fix bug [328] CORBA.INITIALIZE due to ClassCastException: 
+         TIDorb.trace.level > 0 && -ORBInitRef ...	
+	- Fix bug [282] -ORB_exhaustive_equal true doesn't have any effect	
+	
+2007-03-19 Alvaro Vega Garcia  <avega at tid dot es>
+	
+	* TIDorbJ version 6.3.0 released.
+	
+2007-01-16 Luis de la Fuente (ldlf07 at tid dot es)
+	
+	* TIDorbJ version 6.2.1 released.
+
+	Fix bug [126] Problems with unsigned long long parameters	
+	Fix bug [123] Client waits max_block_time when the server closes the socket	
+	Fix bug [22]  TIDorbJ doesn't compile with Sun JDK 1.5
+
+2006-03-03 Irenka Redondo Granados (iredondo at tid dot es)
+
+	* TIDorbJ version 6.2.0 released.
+
+	- Implemented AMI (Asynchronous Method Invocation)
+	
+2005-06-01 Pablo Rodriguez Archilla (pra at tid dot es)
+	
+	* TIDorbJ version 6.1.0	   
+
+	- Implemented quality of the service (QoS) management
+
+2004-12-10 Pablo Rodriguez Archilla (pra at tid dot es)
+
+	* TIDorbJ version 6.0.0 released.
+
+	* Released under GNU/GPL terms
+
+Thu May 20 13:58:15 2004 Juan A. Caceres (caceres at tid dot es)
+
+	* TIDorbJ version 3.2.0 released.
+
+	- Aligned with CORBA 2.6
+	- PolicyManager implemented
+	- Implemented QoS RelativeRequestTimeoutPolicy to manage timeouts of request. 
+	  This policy could be applied by reference, thread or ORB (see manual)
+
+Mon May 03 12:07:32 2004 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.1.1 released.
+
+	- Compatibility with J2SDK 1.4.x
+	- DynUnion.get_discriminator() already doesn't throw InvalidValue exception
+
+Thu Apr 29 14:25:10 2004 Juan A. Caceres (caceres at tid dot es)	
+	
+	* TIDorbJ version 3.1.0 released.
+
+	- IDL to Java compiler has been extracted from the distribution
+	- New distribution of IDL to C++ compiler and IDL to Java (TIDIdlc)
+	- ORB API compiled with TIDIdlc version 1.0.0
+
+Wed Apr 28 11:44:14 2004 Juan A. Caceres (caceres at tid dot es)
+	* TIDorbJ version 3.0.9  
+	
+	- New argument:
+	    es.tid.TIDorbj.iiop.socket_write_timeout (>= 0)
+	  Sets a timeout to avoid deadlocks in a write (caused by when buffer TCP is filled)
+
+Mon Mar 01 13:57:26 2004 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.8 
+	
+	- Fix in marshall of TypeCode indirections
+
+Fri Sep 05 13:23:55 2003 Juan A. Caceres (caceres at tid dot es)	
+	
+	* TIDorbJ version 3.0.7 
+	
+	- Implemented a TypeCodes Cache
+	- Improvements in management of bidirectional connections
+	- Removed bug in  ServerListener
+	- New arguments:
+	   es.tid.TIDorbj.typecode_cache_size (v >= 0)
+           es.tid.TIDorbj.iiop.server_socket_reconnect
+	   es.tid.TIDorbj.iiop.bidirectional (BOTH-NORMAL)
+
+Mon Apr 21 12:44:13 2003 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.6 
+	
+	- Improvmentes in management of IIOP connections
+	- New argument: es.tid.TIDorbj.iiop.socket_connect_timeout
+
+Mon Apr 21 12:11:32 2003 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.5 
+	
+	- Adapted to JDK 1.4: Dynamic Invocation Interface implemented
+	  los stubs facilitados por JDK
+	- Remove bug about Multithreading in Any type
+
+Tue Apr 08 18:30:35 2003 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.4 
+	
+	- Changes to warranty interoperability with GIOP 1.0
+
+Mon Mar 31 16:39:02 2003 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.3 
+	
+	- Last version with chages about bugs in IDL compiler
+
+Thu Mar 13 10:24:41 2003 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.2 
+	
+	- Version with TIDAgent adaptations
+
+Wed Jun 26 08:40:48 2002 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 3.0.1 
+	
+	- Changes to aligned with CORBA 2.5
+
+Fri Apr 19 16:21:26 2002 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 1.11.0 
+	
+	- Version with Objects by Value implemented
+
+Wed Apr 17 15:21:27 2002 Juan A. Caceres (caceres at tid dot es)
+	
+	* TIDorbJ version 1.0.9 
+	
+	- First stable ORB version aligned with CORBA 2.3

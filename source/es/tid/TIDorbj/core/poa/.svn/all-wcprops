@@ -1,0 +1,143 @@
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/svn/tidorbj/!svn/ver/453/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa
+END
+ActiveObjectMap.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/ActiveObjectMap.java
+END
+ThreadPool.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/ThreadPool.java
+END
+POAImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 91
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/POAImpl.java
+END
+QueuedRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/QueuedRequest.java
+END
+QueueReaderManager.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/QueueReaderManager.java
+END
+CurrentImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/CurrentImpl.java
+END
+QueuedResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/QueuedResponseHandler.java
+END
+DeadlineRequestComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/DeadlineRequestComparator.java
+END
+OID.java
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/OID.java
+END
+ExecThread.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/svn/tidorbj/!svn/ver/478/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/ExecThread.java
+END
+ServantDelegate.java
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/ServantDelegate.java
+END
+ThreadStateListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/ThreadStateListener.java
+END
+SystemOID.java
+K 25
+svn:wc:ra_dav:version-url
+V 93
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/SystemOID.java
+END
+POAManagerConf.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/POAManagerConf.java
+END
+PriorityRequestComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/PriorityRequestComparator.java
+END
+TemporalRequestComparator.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/TemporalRequestComparator.java
+END
+CompletionWaiter.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/CompletionWaiter.java
+END
+POAManagerConfListener.java
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/POAManagerConfListener.java
+END
+POAKey.java
+K 25
+svn:wc:ra_dav:version-url
+V 90
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/POAKey.java
+END
+POAManagerImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/POAManagerImpl.java
+END
+RequestQueue.java
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/RequestQueue.java
+END
+QueuedLocateResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/QueuedLocateResponseHandler.java
+END
+CurrentInfo.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/CurrentInfo.java
+END

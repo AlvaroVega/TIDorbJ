@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local
+END
+LocalLocateResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local/LocalLocateResponseHandler.java
+END
+LocalCommLayer.java
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/tidorbj/!svn/ver/395/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local/LocalCommLayer.java
+END
+LocalResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local/LocalResponseHandler.java
+END
+LocalServerRequest.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local/LocalServerRequest.java
+END
+AMILocalResponseHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/comm/local/AMILocalResponseHandler.java
+END

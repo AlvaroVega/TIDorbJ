@@ -1,0 +1,7 @@
+module Echo{
+
+  interface Test{
+    string echo (in string s);
+    oneway void shutdown();
+  };
+};

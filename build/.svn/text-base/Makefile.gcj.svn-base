@@ -1,0 +1,97 @@
+DEST_DIR     := ./bin
+
+#
+# Java targeet dirs
+#
+IDL_OBJS_DIR     := ./idl
+TIDORBJ_OBJS_DIR := ./source
+TOOLS_OBJS_DIR   := ./tools
+UTIL_OBJS_DIR    := ./util
+
+
+
+#
+# Java source code
+#
+IDL_SOURCES     += $(shell find idl/BiDirPolicy/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/comm/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/CosNaming/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/DynamicAny/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/Messaging/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/orb/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/SendingContext/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/TimeBase/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/Compression/.java/ -name *.java -type f)
+IDL_SOURCES     += $(shell find idl/Security/.java/ -name *.java -type f)
+
+TOOLS_SOURCES   += tools/es/tid/TIDorbj/tools/PrintIOR.java
+TIDORBJ_SOURCES += $(shell find source/es/tid/TIDorbj -name *.java -type f)
+TIDORBJ_SOURCES += $(shell find source/es/tid/PortableServer -name *.java -type f)
+UTIL_SOURCES    += $(shell find util/es/tid/TIDorbj/util -name *.java -type f)
+
+
+
+#
+# Java objects
+#
+IDL_OBJECTS     := $(IDL_SOURCES:idl/%.java=$(IDL_OBJS_DIR)/%.o)
+TIDORBJ_OBJECTS := $(TIDORBJ_SOURCES:source/%.java=$(TIDORBJ_OBJS_DIR)/%.o)
+TOOLS_OBJECTS   := $(TOOLS_SOURCES:tools/%.java=$(TOOLS_OBJS_DIR)/%.o)
+UTIL_OBJECTS    := $(UTIL_SOURCES:util/%.java=$(UTIL_OBJS_DIR)/%.o)
+
+
+#
+# Classpath
+#
+CLASSPATH := lib/bidirpolicyIdl.jar:lib/commIdl.jar:lib/dynAnyIdl.jar:lib/messagingIdl.jar:lib/namingIdl.jar:lib/orbIdl.jar:lib/SendingContextIdl.jar:lib/timebaseIdl.jar:lib/CompressionIdl.jar:lib/SecurityIdl.jar:lib/core.jar:lib/util.jar
+
+
+GCJ       := gcj-4.3
+
+GCJ_FLAGS  := -O9 --encoding=ISO-8859-1 -findirect-dispatch -Wl,--allow-multiple-definition
+LINK_FLAGS := -O9 -fCLASSPATH=$(CLASSPATH) -findirect-dispatch -Wl,--allow-multiple-definition
+
+# objects in $(DEST_DIR) don't get linked into the binary
+LINK_OBJECTS := $(foreach f, $(IDL_OBJECTS), \
+                          $(if $(filter-out $(IDL_OBJS_DIR)/, $(dir $(f))), $f))
+LINK_OBJECTS += $(foreach f, $(TIDORBJ_OBJECTS), \
+                          $(if $(filter-out $(TIDORBJ_OBJS_DIR)/, $(dir $(f))), $f))
+LINK_OBJECTS += $(foreach f, $(TOOLS_OBJECTS), \
+                          $(if $(filter-out $(TOOLS_OBJS_DIR)/, $(dir $(f))), $f))
+LINK_OBJECTS += $(foreach f, $(UTIL_OBJECTS), \
+                          $(if $(filter-out $(UTIL_OBJS_DIR)/, $(dir $(f))), $f))
+
+
+PRINTIOR_BIN  := printIOR.bin
+
+BINARIES      := $(DEST_DIR)/$(PRINTIOR_BIN) 
+
+
+
+all: $(BINARIES)
+
+build: clean all
+
+clean: 
+	rm -rf $(BINARIES); 
+	rm -f $(TIDORBJ_OBJECTS) $(TOOLS_OBJECTS) $(UTIL_OBJECTS) $(IDL_OBJECTS);
+
+$(IDL_OBJECTS): $(IDL_OBJS_DIR)/%.o: idl/%.java
+	$(GCJ) -fCLASSPATH=$(CLASSPATH) $(GCJ_FLAGS) -c $< -o $@
+
+$(TIDORBJ_OBJECTS): $(TIDORBJ_OBJS_DIR)/%.o: source/%.java
+	$(GCJ) -fCLASSPATH=$(CLASSPATH) $(GCJ_FLAGS) -c $< -o $@
+
+$(TOOLS_OBJECTS): $(TOOLS_OBJS_DIR)/%.o: tools/%.java
+	$(GCJ) -fCLASSPATH=$(CLASSPATH) $(GCJ_FLAGS) -c $< -o $@
+
+$(UTIL_OBJECTS): $(UTIL_OBJS_DIR)/%.o: util/%.java
+	$(GCJ) -fCLASSPATH=$(CLASSPATH) $(GCJ_FLAGS) -c $< -o $@
+
+
+$(DEST_DIR)/$(PRINTIOR_BIN): $(LINK_OBJECTS)
+	$(GCJ) --main=es.tid.TIDorbj.tools.PrintIOR \
+	       -o $(DEST_DIR)/$(PRINTIOR_BIN) $^ $(LINK_FLAGS)
+
+
+

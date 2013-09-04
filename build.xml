@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+ MORFEO Project
+ http://www.morfeo-project.org
+
+ Component: TIDorbJ
+ Programming Language: Java
+
+ File: $Source$
+ Version: $Revision: 478 $
+ Date: $Date: 2011-04-29 16:42:47 +0200 (Fri, 29 Apr 2011) $
+ Last modified by: $Author: avega $
+
+ (C) Copyright 2004 Telefónica Investigación y Desarrollo
+     S.A.Unipersonal (Telefónica I+D)
+
+ Info about members and contributors of the MORFEO project
+ is available at:
+
+   http://www.morfeo-project.org/TIDorbJ/CREDITS
+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ GNU General Public License for more details.
+
+ You should have received a copy of the GNU General Public License
+ along with this program; if not, write to the Free Software
+ Foundation, Inc., 59 Temple Place - Suite 330, Boston, MA 02111-1307, USA.
+
+ If you want to use this software an plan to distribute a
+ proprietary application in any way, and you are not licensing and
+ distributing your source code under GPL, you probably need to
+ purchase a commercial license of the product.  More info about
+ licensing options is available at:
+
+   http://www.morfeo-project.org/TIDorbJ/Licensing
+   
+-->
+
+<project name="TIDorbJ" default="all" basedir=".">
+
+<!--Configure TIDIdlc path -->
+
+<property name="tididlc.home" location="../TIDIdlc"/>
+<import file="${tididlc.home}/build/properties.xml"/>
+<import file="${tididlc.home}/build/tasks.xml"/>
+	
+<property name="src.debug" value="false"/>	
+<property name="tidorbj.debug" value="${src.debug}"/>
+<property name="tidorbj.encoding" value="iso8859-15"/>
+
+<property name="tidorbj.bin.dir" location="./bin"/>
+<property name="tidorbj.lib.dir" location="./lib"/>
+<property name="tidorbj.doc.dir" location="./doc"/>
+<property name="tidorbj.doc.api.dir" location="${tidorbj.doc.dir}/api"/>	
+<property name="tidorbj.install.dir" location="./dist"/>
+
+<property name="tidorbj.lib" location="${tidorbj.lib.dir}/tidorbj.jar"/>
+
+<!-- common definitions (libraries and paths, from the modules -->
+
+<import file="util/properties.xml"/>
+<import file="idl/properties.xml"/>
+<import file="source/properties.xml"/>
+<import file="tools/properties.xml"/>
+
+
+<target name="all" depends="init">
+  <ant target="all" dir="util" inheritrefs="true" inheritall="true"/>
+  <ant target="all" dir="idl" inheritrefs="true" inheritall="true"/>
+  <ant target="all" dir="source" inheritrefs="true" inheritall="true"/>
+  <ant target="all" dir="tools" inheritrefs="true" inheritall="true"/>
+  <antcall target="lib" inheritrefs="true" inheritall="true"/>
+</target>
+
+<target name="install" depends="all">
+  <delete dir="${tidorbj.install.dir}"/>
+  <mkdir dir="${tidorbj.install.dir}"/>
+  <mkdir dir="${tidorbj.install.dir}/bin"/>
+  <mkdir dir="${tidorbj.install.dir}/idl"/>
+  <mkdir dir="${tidorbj.install.dir}/lib"/>
+  <mkdir dir="${tidorbj.install.dir}/doc"/>
+  <mkdir dir="${tidorbj.install.dir}/doc/api"/>
+  <copy file="${tidorbj.lib}" todir="${tidorbj.install.dir}/lib"/>
+  <copy todir="${tidorbj.install.dir}/bin">
+    <fileset dir="${tidorbj.bin.dir}">
+    </fileset>
+  </copy>
+  <chmod dir="${tidorbj.install.dir}/bin" perm="a+x" includes="**/*.sh"/>
+  <copy file="AUTHORS" todir="${tidorbj.install.dir}"/>
+  <copy file="COPYING" todir="${tidorbj.install.dir}"/>
+  <copy file="ChangeLog" todir="${tidorbj.install.dir}"/>
+  <copy file="BUGS" todir="${tidorbj.install.dir}"/>
+  <copy file="BUILT" todir="${tidorbj.install.dir}"/>
+  <copy file="INSTALL" todir="${tidorbj.install.dir}"/>
+  <copy file="VERSION" todir="${tidorbj.install.dir}"/>
+  <copy file="OMG_SPEC" todir="${tidorbj.install.dir}"/>
+  <ant target="install" dir="idl" inheritrefs="true" inheritall="true"/>
+  <!--antcall target="doc" inheritrefs="true" inheritall="true"/-->
+</target>
+
+<target name="debug">
+  <property name="tidorbj.debug" value="true"/>
+  <antcall target="all" inheritall="true" inheritrefs="true">
+    <param name="tidorbj.debug" value="true"/>
+  </antcall>
+</target>
+
+<target name="init">
+  <echo message="java.home=${java.home}"></echo>
+  <mkdir dir="${tidorbj.lib.dir}"/>
+  <mkdir dir="${tidorbj.doc.dir}"/>
+</target>
+
+<target name="doc">	
+  <mkdir dir="${tidorbj.doc.api.dir}"/>
+  <javadoc access="public" header="CORBA 2.6 API" destdir="${tidorbj.install.dir}/doc/api">
+    <fileset dir="idl">
+      <include name="**/.java/**/*.java"/>
+    </fileset>
+  </javadoc>
+</target>
+
+<target name="clean">
+  <delete dir="${tidorbj.lib.dir}"/>
+  <delete dir="${tidorbj.install.dir}"/>
+  <delete dir="${tidorbj.doc.api.dir}"/>
+  <ant target="clean" dir="idl" inheritrefs="true" inheritall="true"/>
+  <ant target="clean" dir="source" inheritrefs="true" inheritall="true"/>
+  <ant target="clean" dir="util" inheritrefs="true" inheritall="true"/>
+  <ant target="clean" dir="tools" inheritrefs="true" inheritall="true"/>
+</target>
+
+<target name="upToDate">
+	<uptodate property="tidorbj.lib.uptodate" targetfile="${tidorbj.lib}">
+		<srcfiles dir="${tidorbj.lib.dir}">
+	        <include name="*.jar"/>
+	        <exclude name="${tidorbj.lib}"/>
+		</srcfiles>							
+	</uptodate>
+</target>
+		
+<target name="lib" depends="upToDate" unless="tidorbj.lib.uptodate">    
+    <sequential>
+      <mkdir dir=".class"/>	
+      <unjar  dest=".class" src="${tidorbj.idl.orb.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.util.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.tools.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.comm.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.naming.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.bidirpolicy.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.dynAny.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.timebase.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.messaging.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.sending.context.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.compression.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.idl.security.lib}"/>
+      <unjar  dest=".class" src="${tidorbj.core.lib}"/>
+      <jar  basedir=".class" destfile="${tidorbj.lib}" />
+      <delete dir=".class"/>
+    </sequential>
+</target>
+
+
+</project>

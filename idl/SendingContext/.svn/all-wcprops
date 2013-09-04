@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/SendingContext
+END
+.cvsignore
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/SendingContext/.cvsignore
+END
+build.xml
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/SendingContext/build.xml
+END
+SendingContext.idl
+K 25
+svn:wc:ra_dav:version-url
+V 85
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/idl/SendingContext/SendingContext.idl
+END

@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies
+END
+ServantRetentionPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/ServantRetentionPolicyImpl.java
+END
+ImplicitActivationPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/ImplicitActivationPolicyImpl.java
+END
+ThreadPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/ThreadPolicyImpl.java
+END
+IdAssignmentPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/IdAssignmentPolicyImpl.java
+END
+LifespanPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/LifespanPolicyImpl.java
+END
+IdUniquenessPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/IdUniquenessPolicyImpl.java
+END
+RequestProcessingPolicyImpl.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/tidorbj/!svn/ver/358/branches/IPV6/TIDorbJ/source/es/tid/TIDorbj/core/poa/policies/RequestProcessingPolicyImpl.java
+END
