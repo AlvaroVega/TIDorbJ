@@ -6,3 +6,4 @@ script:
   - ant all
 jdk:
   - oraclejdk7
+dist: precise
