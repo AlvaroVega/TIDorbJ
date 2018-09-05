@@ -1,6 +1,6 @@
 language: java
 install:
-  - DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ant
+  - DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ant git
 before_install:
   - sudo apt-get update
   - git clone git@github.com:AlvaroVega/TIDIdlc.git
