@@ -10,8 +10,8 @@
 * Date: $Date: 2005-12-19 08:58:21 +0100 (Mon, 19 Dec 2005) $
 * Last modified by: $Author: caceres $
 *
-* (C) Copyright 2004 Telefónica Investigación y Desarrollo
-*     S.A.Unipersonal (Telefónica I+D)
+* (C) Copyright 2004 TelefÃ³nica InvestigaciÃ³n y Desarrollo
+*     S.A.Unipersonal (TelefÃ³nica I+D)
 *
 * Info about members and contributors of the MORFEO project
 * is available at:
@@ -46,7 +46,7 @@ import es.tid.TIDorbj.core.cdr.BufferCDR;
 import es.tid.TIDorbj.core.cdr.CDR;
 import es.tid.TIDorbj.core.cdr.CDRInputStream;
 import es.tid.TIDorbj.core.cdr.CDROutputStream;
-import es.tid.TIDorbj.core.comm.iiop.IIOPConnection;
+import es.tid.TIDorbj.core.comm.Connection;
 
 /**
  * Represents the 1.0, 1.1 and 1.2 GIOP version CancelRequest messages.
@@ -91,8 +91,7 @@ public class GIOPCancelRequestMessage extends GIOPMessage
         return m_request_id;
     }
 
-    //TODO: giop should not know anything about IIOPConnections!!
-    public void receiveBody(IIOPConnection conn, byte[] header_buffer)
+    public void receiveBody(Connection conn, byte[] header_buffer)
     {
         super.receiveBody(conn, header_buffer);
 
