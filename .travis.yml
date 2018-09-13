@@ -4,8 +4,8 @@ install:
 before_install:
   - sudo apt-get update
   - mkdir TIDIdlc
-  - curl -s --insecure -L https://github.com/AlvaroVega/TIDIdlc/archive/master.tar.gz | tar zxvf - -C TIDIdlc
-  - cd TIDIdlc
+  - curl -s --insecure -L https://github.com/AlvaroVega/TIDIdlc/archive/master.tar.gz | tar zxvf - -C .
+  - cd TIDIdlc-master
   - ant all
 script:
   - ant all
