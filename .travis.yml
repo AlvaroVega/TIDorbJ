@@ -1,9 +1,9 @@
 language: java
 install:
-  - DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ant git
+  - DEBIAN_FRONTEND=noninteractive sudo apt-get install -y ant curl
 before_install:
   - sudo apt-get update
-  - git clone git@github.com:AlvaroVega/TIDIdlc.git
+  - curl -s --insecure -L https://github.com/AlvaroVega/TIDIdlc/archive/master.zip | tar zxvf - -C TIDIdlc
   - cd TIDIdlc
   - ant all
 script:
