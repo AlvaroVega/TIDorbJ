@@ -117,10 +117,8 @@ public class GIOPLocateReplyMessage extends GIOPFragmentedMessage
     {
         reset();
         m_reply_status = LocateReplyStatusType.LOC_SYSTEM_EXCEPTION;
-        SystemExceptionEncoder.write(m_message_buffer_out, exception);
-
         createMessageBufferOutput(orb);
-
+        SystemExceptionEncoder.write(m_message_buffer_out, exception);
         m_message_completed = true;
     }
 
